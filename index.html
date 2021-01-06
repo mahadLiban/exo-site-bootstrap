@@ -1,45 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- header début -->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-        <div class="container-fluid d-flex justify-content-between">
-          <div>
-            <a class="navbar-brand" href="#">
-                <img src="./img/coding-week.jpg" alt="" height="48" class="d-inline-block align-top">
-                Logo
-              </a>
-          </div>
-          <div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                </ul>
-              </div>
-          </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid d-flex justify-content-between">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/coding-week.jpg" alt="" height="48" class="d-inline-block align-top">
+                        Logo
+                    </a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- img Bootstrap -->
+    <div class="container d-flex justify-content-center align-item-center w-75  ">
+        <div class="row   mt-3">
+            <img src="./img/twitter_bootstrap-wallpaper-1920x1200.jpg" alt="#" height="200">
         </div>
-      </nav>
-</header>
-<div class="container d-flex justify-content-center align-item-center ">
-    <div class="row w-75 mt-3">      
-     <img src="./img/twitter_bootstrap-wallpaper-1920x1200.jpg" alt="#" height="200" >
+
     </div>
-</div>
+
+    <!-- ----------------------------------------------------------2 premiere col -->
+    <div class="container d-flex justify-content-center align-item-center  bg-secondary mt-3 w-75 ">
+        <div class="row  d-block w-75 m-5 ">
+            <div class="col-3 d-flex  ">
+                <div class=" m-2 mt">
+                    <img src="./img/team-1.png" alt="" height="150">
+                </div>
+                <div>
+                    <h2>Nom prenom</h3>
+                        <p>Lorem ipsum dolor .</p>
+                </div>
+            </div>
+            <div class="col-3 d-flex mt-3">
+                <div class="m-2">
+                    <img c src="./img/team-2.png" alt="" height="150">
+                </div>
+                <div>
+                    <h2>Nom prenom</h2>
+                    <p>Lorem ipsum dolor .</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 eme col -->
+
+        <div class="row  d-block m-5">
+            <div class="col-3 d-flex ">
+                <div class="m-2">
+                    <img  src="./img/team-3.png" alt="" height="150">
+                </div>
+                <div>
+                    <h2>Nom prenom</h2>
+                    <p>Lorem ipsum dolor .</p>
+                </div>
+            </div>
+
+            <div class="col-3 d-flex ">
+                <div class="m-2">
+                    <img c src="./img/team-4.png" alt="" height="150">
+                </div>
+                <div>
+                    <h2>Nom prenom</h2>
+                    <p>Lorem ipsum dolor .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg-info ">
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="col-6 mt-3  text-center p-5">
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa officia ducimus corrupti necessitatibus odio perferendis!</p>
+                    
+                </div>
+                <div class="col-6  d-flex justify-content-center align-items-center p-0">
+                    <form class="form-inline my-2 my-lg-0 w-50 d-flex  ">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 p-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
